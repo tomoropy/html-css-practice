@@ -1,0 +1,141 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 200px;
+    display: flex;
+}
+
+.title {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.insta-img {
+    width: 30px;
+    height: 30px;
+}
+
+
+.picture {
+    width: 100%;
+}
+
+
+.main-contents {
+    width: 60%;
+    margin: auto;
+}
+
+.content-title {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-body {
+    margin-top: 30px;
+}
+
+.images {
+    padding: auto;
+    text-align: center;
+}
+
+.works-img {
+    margin: 10px;
+    width: 30%;
+    height: 30%;
+}
+
+
+.news-content {
+    display: flex;
+    padding: 15px;
+    border-bottom: 2px solid gainsboro;
+}
+
+.news-content-top {
+    border-top: 2px solid gainsboro;
+}
+
+.date {
+    margin-right: 100px;
+}
+
+.form {
+    display: flex;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.label {
+    margin-right: auto;
+}
+
+.input {
+    width: 80%;
+}
+
+.form-body {
+    height: 200px;
+}
+
+.btn-field {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+    width: 100px;
+    height: 50px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: large;
+}
+
+.footer {
+    height: 80px;
+    background-color: gray;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
